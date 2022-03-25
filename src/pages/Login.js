@@ -5,9 +5,9 @@ function Login() {
     const [pwd, setPwd] = useState("");
 
     const onChange = (event) => {
-        
+
         const {target: {name, value}} = event;
-        if (name == "id") {
+        if (name === "id") {
             setId(value);
         } 
         else {
